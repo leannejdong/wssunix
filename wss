@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# Count from 1 to 10 with a sleep
+
+for ((COUNT = 1; COUNT <=10; COUNT++)); do
+    echo $COUNT
+    sleep 0.58
+done
+
+
+# websocketd --port=8080 my-wss
